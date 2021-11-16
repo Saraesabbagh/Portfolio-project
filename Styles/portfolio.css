@@ -72,6 +72,17 @@ p {
   font-family: var(--secondary-font-family);
 }
 
+.content h3 {
+  font-size: 24px;
+  font-family: var(--secondary-font-family);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+}
+
 .my-photo {
   border-radius: 20px;
 }
@@ -116,7 +127,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
